@@ -5,14 +5,14 @@ import "firebase/storage";
 import "firebase/functions";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAL9DdK_L87robFJJH5SVGreSX1YbDbuO0",
-  authDomain: "charactersheet-dee0a.firebaseapp.com",
-  databaseURL: "https://charactersheet-dee0a.firebaseio.com",
-  projectId: "charactersheet-dee0a",
-  storageBucket: "charactersheet-dee0a.appspot.com",
-  messagingSenderId: "583480714345",
-  appId: "1:583480714345:web:7f5b61db4c639c5a76aef8",
-  measurementId: "G-474CPCEXW4"
+  apiKey: "apiKey",
+  authDomain: "authDomain",
+  databaseURL: "databaseURL",
+  projectId: "projectId",
+  storageBucket: "storageBucket",
+  messagingSenderId: "messagingSenderId",
+  appId: "appId",
+  measurementId: "measurementId"
 };
 firebase.initializeApp(firebaseConfig);
 
